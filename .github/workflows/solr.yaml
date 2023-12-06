@@ -3,7 +3,7 @@ on:
     workflow_dispatch: ~
 
 env:
-  IMAGE_NAME: ghcr.io/ibexa/core/solr
+  IMAGE_NAME: ghcr.io/mnocon/core/solr
 
 jobs:
     build-and-publish:
