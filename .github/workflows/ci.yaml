@@ -195,7 +195,7 @@ jobs:
                 options: 
                     --memory=60m
             solr:
-                image: ghcr.io/ibexa/core/solr
+                image: ghcr.io/mnocon/core/solr
                 ports:
                     - 8983:8983
                 options: >-
